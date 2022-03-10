@@ -7,3 +7,6 @@
 - -l   :  login "name" form form (for example in wordpress it is usually *log* )
 - -p  :  password "name" form form (for example in wordpress it is usually *pwd* )
 - -w :	path to wordlist 
+
+ACHTUNG: Replace line 47 with: wordlist = open(options.wordlist, "r", errors='replace').readlines()
+I am too lazy to commit changes
